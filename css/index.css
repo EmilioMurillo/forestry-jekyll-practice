@@ -3,6 +3,56 @@
       -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
       box-sizing: border-box; /* IE */
  }
+
  section, footer {
  	width: 100%;
  }
+
+.hero {
+  height: 400px;
+  width: 100%;
+  background-image: url("../images/red-panda.jpg");
+  color: white;
+}
+
+li {
+width: 10%;
+float: left;
+list-style: none;
+text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.listitem1 {
+  margin-right: 650px;
+}
+
+.listitems {
+  margin-right: 100;
+}
+
+.panda {
+  margin-left: 350px;
+  margin-bottom: 0px;
+  display: block;
+  width: auto;
+}
+
+.subtitle {
+  margin-left: 470px;
+  margin-top: 0px;
+}
+
+.line {
+  border: 3px solid white;
+  border-top: 50px;
+  height: .2px;
+  margin-left: 620px;
+  width: 10%;
+  }
